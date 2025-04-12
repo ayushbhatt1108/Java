@@ -1,0 +1,18 @@
+# What is github?
+
+GitHub is like a social network and storage space for computer code,it provides a place to store and
+organize code files.
+
+# What is the use of GitHub?
+
+It makes it easy for multiple people to work on the same code at the same time. People can make
+their own changes, and then those changes can be combined with the main version of the code.
+
+# What is Git?
+
+GitHub uses a system called "Git" to track changes made to code. This means it keeps a history 
+of every edit, so you can easily go back to previous versions if needed. This is very important
+when multiple people are working on the same project.
+
+# How to clone a repo in vs code
+
