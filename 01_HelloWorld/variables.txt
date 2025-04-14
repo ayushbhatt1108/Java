@@ -1,0 +1,8 @@
+variable is a container that holds data that can be changed during the execution of a program.
+Each variable has:
+
+A data type (like int, String, double, etc.)
+
+A name
+
+(Optional) An initial value

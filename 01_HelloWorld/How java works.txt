@@ -1,0 +1,26 @@
+# Java code excutes in JVM which is a part of an OS. Further OS is part of hardware level wise .
+
+# Our application on which Java is running is platform independent while to execute java command
+  we need jvm in that application which is platform dependent.
+
+# JVM understands only byte code so to convert our human language code into machine language 
+  which is byte code we need to compile our code for which we need a compiler ( javac ).
+
+# JVM can execute 100s or 1000s of files but we need to specify the first file which will contain
+  the main method inside it, JVM is going to execute that file first. Then JVM will show us the 
+  output by executing all other file one by one.
+
+# Java is object oriented coding language which means everything should be an object and to create
+  objects we need a class.
+
+# The moment we compile our code using "javac filename.java" command we get a class file which is 
+  the byte code that can only be read by jvm. Now to run the code we need to use "java <class name>"
+
+# Now when we have to run something we use JRE.    JVM is a part of JRE.
+ JRE - java runtime environment
+ JVM - java virtual machine
+
+# jvm + libraries is a part of jre
+
+# When we install JDK it contains JRE and inside JRE these is JVM. But to run that code of someone
+  elses machine only jre and jvm ir required jdk is not required.

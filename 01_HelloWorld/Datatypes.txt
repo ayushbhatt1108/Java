@@ -1,0 +1,29 @@
+A data type tells the computer what kind of value a variable can hold and how much memory it needs.
+
+# Datatypes are majorly of two types :
+
+1. Primitive Datatypes
+
+Primitive datatypes are of 4 types mainly
+(i) Integer
+
+mainly of 4 types : (a) Int - size = 4 bytes
+                    (b) long - size = 8 bytes
+                    (c) short - size = 2 bytes
+                    (d) byte - size = 1 bytes
+
+(ii) Float
+
+mainly of 2 types : (a) float - size = 4 bytes
+                    example ; float c = 56.5f
+                    
+                    (b) double - size = 8 bytes
+
+(iii) character
+
+                    char - size = 2 bytes
+
+(iv) Boolean
+
+      bool - tells true or false
+

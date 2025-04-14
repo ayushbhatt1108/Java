@@ -16,3 +16,26 @@ when multiple people are working on the same project.
 
 # How to clone a repo in vs code
 
+* git init:
+
+Initializes a new Git repository in the current directory. This is the first step in creating a 
+new Git project.
+
+* git clone <repository_url>:
+
+Creates a copy of an existing Git repository from a remote URL. This is how you download a project 
+from GitHub or another Git hosting service.
+
+* git status:
+
+Displays the status of the working directory and staging area. It shows which files have been
+modified, staged, or are untracked.
+
+* git add <file(s)>:
+
+Adds changes in the working file that already exist in github. This prepares the changes for a commit.
+
+* git commit -m "commit message":
+
+Records the staged changes in the repository's history. The "-m" option allows you to add a commit
+message directly in the command.
