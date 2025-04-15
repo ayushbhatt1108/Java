@@ -1,0 +1,37 @@
+Type conversion refers to changing a variable from one data type to another. It can be of two types:
+
+1. Implicit Type Conversion (Widening Conversion)
+
+Happens automatically.
+
+Converts a smaller data type to a larger data type.
+
+No data is lost.
+
+Example: int → long → float → double
+
+Example:
+
+public class Main {
+    public static void main(String[] args) {
+        int num = 10;
+        double result = num;  // int is automatically converted to double
+        System.out.println(result);  // Output: 10.0
+    }
+}
+
+2. Explicit Type Conversion (Narrowing Conversion / Type Casting)
+
+Must be done manually.
+
+Converts a larger data type to a smaller data type.
+
+Might result in data loss or overflow.
+
+public class Main {
+    public static void main(String[] args) {
+        double num = 10.99;
+        int result = (int) num;  // double is explicitly cast to int
+        System.out.println( result);  // Output: 10
+    }
+}

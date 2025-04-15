@@ -1,0 +1,61 @@
+Java provides five main arithmetic operators:
+
+1. Addition (+)
+Adds two numbers.
+
+int a = 5;
+int b = 3;
+System.out.println(a + b); // Output: 8
+
+2. Subtraction (-)
+Subtracts the right operand from the left.
+
+int a = 10;
+int b = 4;
+System.out.println(a - b); // Output: 6
+
+3. Multiplication (*)
+Multiplies two numbers.
+
+int a = 6;
+int b = 7;
+System.out.println(a * b); // Output: 42
+
+4. Division (/)
+Divides the left number by the right number.
+Important: If both operands are integers, the result will be an integer (decimal part is discarded).
+
+int x = 7;
+int y = 2;
+System.out.println(x / y); // Output: 3 (not 3.5)
+
+# To get decimal:
+
+double x = 7;
+double y = 2;
+System.out.println(x / y); // Output: 3.5
+
+5. Modulus (%)
+Gives the remainder after division.
+
+int a = 10;
+int b = 3;
+System.out.println(a % b); // Output: 1
+
+ Useful for:
+
+Checking even/odd: num % 2 == 0
+Looping patterns
+Rotating indexes in circular lists
+
+⚠️ Division by Zero:
+
+int a = 10;
+int b = 0;
+System.out.println(a / b); // ❌ Throws ArithmeticException
+
+But with floating point:
+
+double a = 10;
+double b = 0;
+System.out.println(a / b); // ✅ Output: Infinity
