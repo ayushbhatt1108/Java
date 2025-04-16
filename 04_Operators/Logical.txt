@@ -1,0 +1,38 @@
+Logical operators are used to connect two or more boolean expressions and return a true or false 
+result.
+
+1. && (Logical AND)
+Returns true only if both conditions are true.
+
+int a = 7;
+int b = 12;
+if (a > 5 && b < 15) {
+    System.out.println("Both conditions are true");
+}
+// Output: Both conditions are true
+
+If even one condition is false, result is false.
+
+2. || (Logical OR)
+Returns true if at least one condition is true.
+
+int a = 7;
+int b = 20;
+if (a > 5 || b < 10) {
+    System.out.println("At least one condition is true");
+}
+// Output: At least one condition is true
+
+3. ! (Logical NOT)
+Reverses the result of a condition.
+
+int a = 10;
+
+if (!(a > 15)) {
+    System.out.println("a is not greater than 15");
+}
+// Output: a is not greater than 15
+
+
+
+

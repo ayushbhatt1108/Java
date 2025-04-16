@@ -1,0 +1,48 @@
+These operators compare two values and return a boolean (true or false). They’re often used in 
+conditions, like if, while, and for loops.
+
+1. == (Equal To)
+Checks if two values are equal.
+
+int a = 5;
+int b = 5;
+System.out.println(a == b);  // Output: true
+
+2. != (Not Equal To)
+Checks if two values are not equal.
+
+int a = 10;
+int b = 20;
+System.out.println(a != b);  // Output: true
+
+3.  > (Greater Than)
+Checks if the left value is greater than the right one.
+
+int a = 15;
+int b = 10;
+System.out.println(a > b);  // Output: true
+
+4. < (Less Than)
+Checks if the left value is less than the right one.
+
+int a = 3;
+int b = 8;
+System.out.println(a < b);  // Output: true
+
+5. >= (Greater Than or Equal To)
+Checks if the left value is greater than or equal to the right.
+
+int a = 5;
+int b = 5;
+System.out.println(a >= b);  // Output: true
+✅ Also returns true if the values are equal.
+
+6. <= (Less Than or Equal To)
+Checks if the left value is less than or equal to the right.
+
+int a = 4;
+int b = 6;
+System.out.println(a <= b);  // Output: true
+✅ Also returns true if the values are equal.
+
+
