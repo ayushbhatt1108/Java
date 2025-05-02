@@ -1,11 +1,12 @@
 public class Variable{
 
     public static void main(String[] args) {
-        int num1 = 8; // first datatype is specified then variable name was assigned and then we gave a 
-                      // value to variable
-        int num2 = 7;
-        int multiply = num1*num2;
-        System.out.println(multiply);
+        int a = 36 ;  // first datatype is specified then variable name was assigned and then we gave a 
+        int b = 56 ;  // value to variable
+        int result = a*b;
+                
+    
+        System.out.println(a);
         
 
     }
