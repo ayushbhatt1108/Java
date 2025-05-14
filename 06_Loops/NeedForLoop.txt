@@ -1,0 +1,12 @@
+In Java, loops are needed to execute a block of code multiple times without writing it repeatedly. 
+
+Loops make code shorter, more efficient, easier to read, and reduce errors during repetitive tasks like iterating arrays, processing lists, or 
+printing sequences.
+
+Summary:
+
+Without Loop                    With Loop
+Code is long and messy	        Code is short and clean
+Prone to human error	        Reduces error
+Hard to maintain	            Easy to maintain
+

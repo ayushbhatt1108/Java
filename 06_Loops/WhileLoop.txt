@@ -1,0 +1,32 @@
+A while loop in Java repeatedly executes a block of statements as long as the given condition is true.
+
+public class WhileLoopExample {
+    public static void main(String[] args) {
+        int i = 1;
+
+        while (i <= 5) {
+            System.out.println("i = " + i);
+            i++; // increment i
+        }
+    }
+}
+
+Output:
+
+i = 1
+i = 2
+i = 3
+i = 4
+i = 5
+
+Explanation:
+
+It starts with i = 1.
+
+As long as i <= 5, the loop will print the value of i and then increase i by 1.
+
+When i becomes 6, the condition i <= 5 becomes false, and the loop stops.
+
+
+
+

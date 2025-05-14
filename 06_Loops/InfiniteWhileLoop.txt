@@ -1,0 +1,76 @@
+An infinite while loop is a loop that never stops running because the condition always stays true.
+Usually, it happens when:
+
+You purposely set the condition to true Or you forget to update the variables inside the loop
+
+# Basic Example of an Infinite While Loop:
+
+public class InfiniteWhileLoop {
+    public static void main(String[] args) {
+        while (true) {
+            System.out.println("This will run forever...");
+        }
+    }
+}
+Explanation:
+
+while (true) means the condition is always true.
+
+So the loop keeps printing This will run forever... endlessly.
+
+It never exits unless:
+
+You manually stop the program (e.g., press Ctrl + C)
+
+You use a break statement inside the loop (more on this below)
+
+# Another Example (by mistake):
+
+public class MistakeInfiniteLoop {
+    public static void main(String[] args) {
+        int i = 1;
+        
+        while (i <= 5) {
+            System.out.println("i = " + i);
+            // Forgot to increment i (i++)
+        }
+    }
+}
+ Problem:
+
+i is never increased.
+
+i remains 1, and i <= 5 is always true — causing an unintentional infinite loop.
+
+# Using break to exit infinite loop safely:
+
+public class BreakInfiniteLoop {
+    public static void main(String[] args) {
+        int count = 0;
+
+        while (true) {
+            System.out.println("Count: " + count);
+            count++;
+
+            if (count == 5) {
+                break; // Exit the loop when count is 5
+            }
+        }
+    }
+}
+Output:
+
+Count: 0
+Count: 1
+Count: 2
+Count: 3
+Count: 4
+
+
+
+
+
+
+
+
+

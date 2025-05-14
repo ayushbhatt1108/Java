@@ -6,7 +6,7 @@ public class Variable{
         int result = a*b;
                 
     
-        System.out.println(a);
+        System.out.println(result);
         
 
     }
