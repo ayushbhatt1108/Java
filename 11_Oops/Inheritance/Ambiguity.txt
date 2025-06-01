@@ -1,0 +1,48 @@
+Ambiguity in Java typically arises when two or more inherited methods or members conflict — for example, when two parent classes define the same method or
+variable and a child class inherits from both. This leads to confusion about which method should be called, creating ambiguity.
+
+Java avoids this problem by not allowing multiple inheritance with classes.
+
+🔴 Why Java Does NOT Support Multiple Inheritance with Classes
+
+Java does not allow a class to inherit from more than one class directly, like:
+
+class A {
+    void show() { System.out.println("A"); }
+}
+class B {
+    void show() { System.out.println("B"); }
+}
+
+// ❌ This is not allowed in Java
+class C extends A, B {  
+    // Which show() should be called? A's or B's?
+}
+This would cause ambiguity because both A and B define a show() method. Java avoids this by not allowing multiple inheritance with classes.
+
+✅ Java Supports Multilevel Inheritance
+There is often confusion here. Java does support multilevel inheritance, like:
+
+class A {
+    void msg() {
+        System.out.println("Message from A");
+    }
+}
+class B extends A {
+    void greet() {
+        System.out.println("Greetings from B");
+    }
+}
+class C extends B {
+    void hello() {
+        System.out.println("Hello from C");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        C obj = new C();
+        obj.msg();   // From A
+        obj.greet(); // From B
+        obj.hello(); // From C
+    }
+}
