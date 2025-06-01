@@ -1,0 +1,12 @@
+                                          Private         Protected          Public             Deafault
+
+# Same class                                yes              yes               yes                 yes
+
+# Same package  child class                 no               yes               yes                 yes
+
+# Same package non sub class                no               yes               yes                 yes
+
+# Different package sub class               no               yes               yes                 no
+
+# Different package non sub class           no               no                yes                 no
+   
