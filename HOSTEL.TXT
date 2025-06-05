@@ -1,43 +1,82 @@
-1. chargers
-2. power bank
-3. phone
-4. speaker
-5. Extension board
-6. double attachment adapter
-7. trimmer
-8. Kettle
-9. Monitor
-10. Keyboard
-11. data cable
-12. First aid ( thermometer)
-13. Moov
-14. Vicks baam
-15. zandu balm
-16. Hot Water bag
-17. Bag pack
-18. organizers
-19. waist bag chota
-20. tool kit
-21. Razor
-22. Headphone
-23. earbuds
-24. ENO packets
-25. orS 
-26. laundary container
-27. pen holder
-28. table lamp
-29. footmat
-30. bed sheet
-31. pillow
-32. water bottles
-33. sipper
-34. shaker
-35. spoon
-36. coffee mug
-37. hairband
-38. comb
-39. small hand mirror
-40. nail cutter
-41. crocs
-42. socks
-43. 
+ELECTRONICS 
+1 charger 
+2 Power bank 
+3 Phonee
+4 Speaker
+5 Extention board
+6 Monitor
+7 Adaptor (double)
+8 Trimmer 
+9 Kettle
+10 Keyboard 
+11 Data cable
+12 Headphones 
+13 Earpods
+
+First aid 
+14. Thermometer 
+15. Paracetamol 
+16. Moov
+17. Vicks
+18. Zandu balm
+19. Hot water bag
+20. Ors
+21. Eno
+
+22. Backpack 
+23. Waist pouch
+24. Organisers(toiletries, gadgets)
+25. Smol tool kit
+26. Razor(shaving kit)
+27. Laundary bag
+28. Pen holder
+29. Table lamp
+30. Footmat
+31. Bed sheet
+32. Pillow
+33. Pillow cover
+34. Sipper(gym)
+35. Shaker(gym)
+36. Metal
+37. 1l normal
+38. Coffee mug
+39. Spoon
+
+PERSONAL CARE
+40. Hairband
+41. Comb
+42. Hand mirror
+43. Nail cutter
+44. Crocs
+45. Socks
+46. Belt
+47. Safety pins 
+48. Clippers
+49. Smol knife
+50. Laptop pouch
+51. Handkerchief 
+52. Calculator 
+53. Sticky notes
+54. White board
+55. Wallet
+56. Stapler
+57. Mouth wash
+58. Mouse pad 
+59. Desk mat
+60. Suitcase
+61. Ring 
+62. Locket
+63. Bracelet 
+64. Analog watch 
+65. Table clock
+66. Chair
+67. Hangers
+68. Rope
+69. Keychain (2-3)
+70. Raincoat 
+71. Umbrella 
+72. Rubix cube
+73. Shoes
+74. Cap
+75. 
+Geometry box
