@@ -1,0 +1,15 @@
+In Java, the throw keyword is used to manually throw an exception from a method or block of code. It's useful when you want to indicate that something has 
+gone wrong, even if Java itself doesn’t throw an exception automatically.
+
+🔹 Syntax:
+
+throw new ExceptionType("Error message");
+
+🔸 Key Points:
+
+-throw is used to throw a single exception.
+
+-The object thrown must be an instance of Throwable (like Exception or Error).
+
+-It’s often used inside if conditions or custom logic.
+

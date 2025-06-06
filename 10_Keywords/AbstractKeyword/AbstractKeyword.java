@@ -1,8 +1,6 @@
 /**
- * Suppose I have a class say in this Car however in one of the methods drive I
- * am unsure
- * of the actual implementation of it and however I wish that whichever class
- * will be inheriting
+ * Suppose I have a class say in this Car however in one of the methods drive I am unsure of the actual implementation of it and however I wish that whichever
+ * class will be inheriting
  * from this Car class should take care of this method however I have only
  * declared the method , saying that
  * please take care of this method implementation on your own once you mark Car
